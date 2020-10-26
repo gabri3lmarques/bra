@@ -90,7 +90,7 @@ myForm.addEventListener('submit', function(e){
     messagemBox.classList.remove("success");
     messagemBox.classList.add("error");
     img.setAttribute("src", "./assets/images/error.svg");
-    messageHeader.innerHTML = "Deu rim!"
+    messageHeader.innerHTML = "Deu ruim!"
     messageText.innerHTML = "Parece que tem algo errado com o seu email, confere pra nós?";
     if(emailValue == ""){
       messageText.innerHTML = "O campo email não pode ficar vazio";

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste Front-end BRA</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="./assets/images/logo.svg">
+      <form>
+        <input autocomplete="off" type="text" name="search" placeholder="O que você procura?">
+        <button>Procure</button>
+      </form>
+    </div>
+  </header>
+  <div class="top-menu">
+    <div class="container">
+      <div class="toggle-button">
+        <div id="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="menu-container">
+        <nav>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="text">Primeiro Slide</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="text">Segundo Slide</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="text">Terceiro Slide</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1);clearTimer()">&#10094;</a>
+    <a class="next" onclick="plusSlides(1);clearTimer()">&#10095;</a>
+  </div>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1);clearTimer()"></span> 
+    <span class="dot" onclick="currentSlide(2);clearTimer()"></span> 
+    <span class="dot" onclick="currentSlide(3);clearTimer()"></span> 
+  </div>
+  <section class="main container">
+    <div class="text-box">
+      <img src="./assets/images/foto.jpg">
+      <div>
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+      </div>
+    </div>
+    <div class="banners-mosaic">
+      <div class="col-1">
+        <div class="banner-1">banner 1</div>
+      </div>
+      <div class="col-2">
+        <div class="row-1">
+          <div class="banner-2">banner 2</div>
+          <div class="banner-3">banner 3</div>
+        </div>
+        <div class="row-2">
+          <div class="banner-4">banner 4</div>
+          <div class="banner-5">banner 5</div>
+          <div class="banner-6">banner 6</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="newsletter">
+      <div class="container">
+        <h3>CADASTRE-SE EM NOSSA<br>NEWSLETTER</h3>
+        <form id="mailingForm" name="mailingForm">
+          <input autocomplete="off" type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+    <div class="blue-box"></div>
+    <div class="institucional">
+      <div class="container">
+        <img src="./assets/images/logo.svg" alt="">
+        <div class="links">
+          <ul>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <p>Siga-nos nas redes sociais:</p>
+          <div class="icons">
+            <img src="./assets/images/facebook.svg">
+            <img src="./assets/images/instagram.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="form-return">
+    <div class="message">
+      <div class="close">
+        <img id="close-button" src="./assets/images/close.svg">
+      </div>
+      <img id="message-image" src="">
+      <h3 id="message-header"></h3>
+      <p id="return-message"></p>
+    </div>
+  </div>
+  <script src="assets/scripts.js"></script>
+</body>
+</html>
